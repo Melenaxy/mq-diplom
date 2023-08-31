@@ -811,18 +811,16 @@ body {
 }
 
 @media (min-width: 641px) and (orientation: landscape) {
-
-  .trends-wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 2px;
-  }
-
   .trends {
     width: calc((100% - 6px)/4);
     margin-bottom: 0;
   }
+}
 
+@media (min-width: 1201px) {
+  .trends {
+    width: calc((100% - 6px)/4);
+    margin-bottom: 0;
+  }
 
 }
