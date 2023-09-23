@@ -58,7 +58,7 @@
                                 <a class="trends-tags-link" href="#0">Interior</a>
                             </li>
                         </ul>
-                        <h3 class="trends-title">Сейчас в тренде: сад на подоконнике</h3>
+                        <h3 class="trends-title"><a class="trends-title-link" href="#0">Сейчас в тренде: сад на подоконнике</a></h3>
                     </header>
                 </article>
                 <article class="trends trend-2">
@@ -68,7 +68,7 @@
                                 <a class="trends-tags-link" href="#0">Food</a>
                             </li>
                         </ul>
-                        <h3 class="trends-title">Cыры на красивых картинках из интернета: какие они на вкус?</h3>
+                        <h3 class="trends-title"><a class="trends-title-link" href="#0">Cыры на красивых картинках из интернета: какие они на вкус?</a></h3>
                     </header>
                 </article>
                 <article class="trends trend-3">
@@ -81,7 +81,7 @@
                                 <a class="trends-tags-link" href="#0">Travel</a>
                             </li>
                         </ul>
-                        <h3 class="trends-title">Собираемся в первый поход в горы</h3>
+                        <h3 class="trends-title"><a class="trends-title-link" href="#0">Собираемся в первый поход в горы</a></h3>
                     </header>
                 </article>
                 <article class="trends trend-4">
@@ -94,7 +94,7 @@
                                 <a class="trends-tags-link" href="#0">Health</a>
                             </li>
                         </ul>
-                        <h3 class="trends-title">Сейчас в тренде: сколько витамина С в лимонах?</h3>
+                        <h3 class="trends-title"><a class="trends-title-link" href="#0">Сейчас в тренде: сколько витамина С в лимонах?</a></h3>
                     </header>
                 </article>
             </div>
@@ -440,6 +440,40 @@
         </div>
         <a href="#0" class="copyright">Copyright © 2009–2019 City Blog LLC.</a>
     </footer>
+
+    <!-- Попап окно -->
+    <div class="pop-up-container hidden">
+        <form class="pop-up-content">
+            <button class="pop-up-close" type="button"></button>
+            <h2 class="pop-up-title">Ваш фидбек</h2>
+            <div class="frequency-select">
+                <label class="selectable">Как часто вы заходите на сайт?</label>
+                <select class="select-option">
+                    <option class="option">Почти каждый день</option>
+                    <option class="option">Раз в неделю и реже</option>
+                    <option class="option">Пару раз в месяц</option>
+                    <option class="option">Пару раз в год</option>
+                    <option class="option">Впервые на сайте</option>
+                </select>
+            </div>
+            <div class="subscribe-select">
+                <label class="selectable">Вы подписаны на e-mail рассылку</label>
+                <label class="radio-label">
+                    <input type="radio" name="subscribe" class="radio-check radio-1 checked" checked="">
+                    <span class="radio-text">Да</span>
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="subscribe" class="radio-check radio-2 checked">
+                    <span class="radio-text">Нет</span>
+                </label>
+            </div>
+            <div class="feedback-container">
+                <label class="selectable">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
+                <textarea class="feedback">Может, больше рецептов?</textarea>
+            </div>
+            <button class="pop-up-button">Отправить</button>
+        </form>
+    </div>
 </body>
 
 </html>
