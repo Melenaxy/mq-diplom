@@ -782,11 +782,13 @@ body {
   width: 100%;
   height: 130px;
   background-color: #f4f7f6;
-  border: none;
+  border: 2px solid black;
+  border-radius: 3px;
   padding-left: 19px;
   padding-top: 19px;
   color: #707171;
   font-size: 13px;
+  outline: none;
 }
 
 .pop-up-button {
