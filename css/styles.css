@@ -398,7 +398,7 @@ body {
 }
 
 .search-field:focus {
-  border-bottom: 1px solid #b59f5b;
+  border: 1px solid #b59f5b;
 }
 
 .search-button {
@@ -450,7 +450,7 @@ body {
 }
 
 .subscribe-field:focus {
-  border-bottom: 1px solid #b59f5b;
+  border: 1px solid #b59f5b;
 }
 
 .subscribe-button {
@@ -748,7 +748,7 @@ body {
 }
 
 .select-option:focus {
-  border-bottom: 1px solid #b59f5b;
+  border: 1px solid #b59f5b;
 }
 
 .subscribe-select {
@@ -789,7 +789,6 @@ body {
   width: 100%;
   height: 130px;
   background-color: #f4f7f6;
-  border-radius: 3px;
   padding-left: 19px;
   padding-top: 19px;
   color: #707171;
@@ -799,7 +798,7 @@ body {
 }
 
 .feedback:focus {
-  border-bottom: 1px solid #b59f5b;
+  border: 1px solid #b59f5b;
 }
 
 .pop-up-button {
