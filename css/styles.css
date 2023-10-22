@@ -664,7 +664,7 @@ body {
   justify-content: center;
   align-items: center;
   position: fixed;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   top: 0;
   right: 0;
   left: 0;
@@ -697,6 +697,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   font-size: 20px;
+  font-weight: 700;
   margin-bottom: 25px;
 }
 
@@ -717,8 +718,8 @@ body {
 .frequency-select::after {
   content: "";
   position: absolute;
-  width: 10px;
-  height: 20px;
+  width: 8px;
+  height: 14px;
   background-image: url(../svg/form-arrows.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -736,13 +737,18 @@ body {
   width: 100%;
   height: 47px;
   background-color: #f4f7f6;
-  border: none;
   margin-bottom: 25px;
   padding-left: 19px;
   color: #707171;
   font-size: 13px;
   appearance: none;
   cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.select-option:focus {
+  border-bottom: 1px solid #b59f5b;
 }
 
 .subscribe-select {
@@ -757,6 +763,7 @@ body {
 
 .radio-check {
   appearance: none;
+  outline: none;
   padding-left: 20px;
 }
 
@@ -782,13 +789,17 @@ body {
   width: 100%;
   height: 130px;
   background-color: #f4f7f6;
-  border: 2px solid black;
   border-radius: 3px;
   padding-left: 19px;
   padding-top: 19px;
   color: #707171;
   font-size: 13px;
+  border: none;
   outline: none;
+}
+
+.feedback:focus {
+  border-bottom: 1px solid #b59f5b;
 }
 
 .pop-up-button {
@@ -802,6 +813,10 @@ body {
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.pop-up-button:hover {
+  background-color: #323232;
 }
 
 .hidden {
